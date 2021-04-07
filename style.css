@@ -1,11 +1,7 @@
-p {
-    color: green;
+div {
+    display: inline;
 }
 
-ul {
-    color: orange;
-}
-
-body {
-    font-size: 24px;
+span {
+    display: block;
 }
