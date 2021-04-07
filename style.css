@@ -4,4 +4,7 @@ div {
 
 span {
     display: block;
+    background-color: yellow;
+    height: 100px;
+    width: 200px;
 }
