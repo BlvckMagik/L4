@@ -1,22 +1,11 @@
-body {
-    background-color: antiquewhite;
-}
-
-.content {
-    box-sizing: content-box;
-    background-color: aquamarine;
-}
-
-.border {
-    box-sizing: border-box;
-    background-color: azure;
-}
-
-.content,
-.border {
-    border: 8px solid black;
-    margin: 16px;
-    padding: 16px;
-    width: 512px;
-    height: 128px;
+div {
+    font-size: 24px;
+    background-color: bisque;
+    width: 420px;
+    height: 140px;
+    border-width: 10px 20px;
+    border-color: firebrick chartreuse burlywood aqua;
+    border-style: solid solid dashed dashed;
+    padding: 20px;
+    margin: 50px 100px 50px 100px;
 }
