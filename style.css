@@ -2,33 +2,27 @@
     box-sizing: border-box;
 }
 
-.square {
-    width: 100px;
-    height: 100px;
-}
-
-section {
-    background: aquamarine;
-    padding: 16px;
+header {
+    height: 50px;
+    background-color: yellow;
 }
 
 footer {
-    height: 30px;
-    border: 2px solid black;
+    height: 50px;
+    background-color: green;
     clear: both;
 }
 
-.container {
-    width: 50%;
+main {
+    width: 80%;
+    height: 500px;
+    background-color: pink;
     float: left;
 }
 
-.red {
-    background-color: red;
-    float: right;
-}
-
-.green {
-    background-color: green;
+.sidebar {
+    width: 20%;
+    height: 500px;
     float: left;
+    background-color: gray;
 }
