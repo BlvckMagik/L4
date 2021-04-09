@@ -1,29 +1,71 @@
-* {
-    box-sizing: border-box;
+.header {
+    position: fixed;
+    background-color: darkturquoise;
+    height: 40px;
+    width: 100%;
+    z-index: 2;
 }
 
-div {
+.navigation {
+    height: 40px;
+}
+
+li {
+    display: inline;
+    margin: 16px;
+    color: white;
+}
+
+.content {
+    background-color: beige;
+    height: 5000px;
+}
+
+.head {
     height: 200px;
-    width: 20%;
-    float: left;
+    width: 200px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 100px);
 }
 
-.block_red {
-    background-color: red;
+ul {
+    margin: 0px;
+    line-height: 40px;
 }
 
-.block_green {
-    background-color: green;
+.ear {
+    position: absolute;
+    height: 60px;
+    width: 40px;
+    background-color: brown;
 }
 
-.block_blue {
-    background-color: blue;
+.ear_right {
+    top: -60px;
+    left: -40px;
 }
 
-.block_yellow {
-    background-color: yellow;
+.ear_left {
+    top: -60px;
+    right: -40px;
 }
 
-.block_black {
-    background-color: black;
+.eye {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.eye_right {
+    top: 80px;
+    right: 40px;
+}
+
+.eye_left {
+    top: 80px;
+    left: 40px;
 }
