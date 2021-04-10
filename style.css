@@ -14,13 +14,10 @@ header {
     background-color: bisque;
     width: 300px;
     flex-grow: 1;
+    flex-shrink: 0;
 }
 
 .articles-list {
     display: flex;
     flex-wrap: wrap;
-}
-
-p {
-    margin: 0px;
 }
