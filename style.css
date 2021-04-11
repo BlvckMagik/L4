@@ -1,45 +1,20 @@
-.dropdown {
-    margin: 16px;
-    cursor: pointer;
+.text {
+    display: inline-block;
     position: relative;
-    display: inline-block;
+    margin: 16px;
+    border-bottom: 1px dotted black;
 }
 
-.menu-button {
-    padding: 16px;
-    background-color: darkgreen;
-    opacity: 0.8;
-    color: white;
-    font-size: 16px;
-    display: inline-block;
-}
-
-.menu-list {
-    margin: 0;
-    padding: 0;
-    background-color: lightcyan;
-    color: black;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    min-width: 120px;
-    z-index: 1;
+.tooltip {
     position: absolute;
-    top: 50px;
+    background-color: grey;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    bottom: -40px;
     display: none;
 }
 
-li {
-    padding: 16px;
-    list-style: none;
-}
-
-.dropdown:hover .menu-list {
+.text:hover .tooltip {
     display: block;
-}
-
-li:hover {
-    background-color: ghostwhite;
-}
-
-.menu-button:hover {
-    opacity: 1;
 }
