@@ -1,6 +1,5 @@
 .dropdown {
     margin: 16px;
-    margin-top: 32px;
     cursor: pointer;
     position: relative;
     display: inline-block;
@@ -12,6 +11,7 @@
     opacity: 0.8;
     color: white;
     font-size: 16px;
+    display: inline-block;
 }
 
 .menu-list {
@@ -23,7 +23,7 @@
     min-width: 120px;
     z-index: 1;
     position: absolute;
-    top: 32px;
+    top: 48px;
     display: none;
 }
 
