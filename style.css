@@ -11,8 +11,3 @@ div>div {
 .h {
     visibility: hidden;
 }
-
-.v {
-    top: 0;
-    position: absolute;
-}
