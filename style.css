@@ -1,23 +1,18 @@
-* {
-    box-sizing: border-box;
+div>div {
+    width: 100px;
+    height: 100px;
+    background: coral;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nd {
+    display: none;
 }
 
-.article {
-    margin: 8px;
-    padding: 16px;
-    background-color: bisque;
-    flex-basis: 300px;
-    flex-grow: 1;
-    flex-shrink: 0;
+.h {
+    visibility: hidden;
 }
 
-.articles-list {
-    display: flex;
-    flex-wrap: wrap;
+.v {
+    top: 0;
+    position: absolute;
 }
