@@ -1,13 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+}
+
 div>div {
-    width: 100px;
     height: 100px;
-    background: coral;
+    width: 150px;
+    background-color: beige;
+    margin: 16px;
 }
 
-.nd {
-    display: none;
+.cropped {
+    overflow: hidden;
 }
 
-.h {
-    visibility: hidden;
+.both-scrolls {
+    overflow: scroll;
+}
+
+.vertical-scroll {
+    overflow: auto;
+}
+
+.both-scrolls,
+.vertical-scroll {
+    cursor: all-scroll;
 }
