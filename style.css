@@ -1,19 +1,10 @@
-.text {
-    margin: 16px;
-    display: inline-block;
-    border-bottom: 1px dotted black;
+.gallery {
+    overflow: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    cursor: all-scroll;
 }
 
-.tooltip {
-    display: none;
-    position: absolute;
-    background-color: grey;
-    border-radius: 4px;
-    padding: 8px;
-    top: 40px;
-    color: white;
-}
-
-.text:hover .tooltip {
-    display: block;
+.thumb {
+    margin: 8px;
 }
