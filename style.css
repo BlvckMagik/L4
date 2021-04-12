@@ -3,13 +3,14 @@
 }
 
 .image-container {
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .main_pic {
     display: block;
     max-width: 100%;
-    margin: 20px auto 0;
+    margin: 0 auto;
     border-radius: 20px;
 }
 
