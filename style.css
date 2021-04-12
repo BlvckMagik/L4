@@ -1,9 +1,14 @@
-* {
-    box-sizing: border-box;
+body {
+    font-size: 18px;
 }
 
-.texture {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/background.jpg);
+ul {
+    color: #f39;
+    line-height: 32px;
+    font-size: 24px;
+}
+
+li {
+    list-style: none;
+    padding: 8px;
 }
