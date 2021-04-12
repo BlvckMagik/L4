@@ -1,14 +1,8 @@
-body {
-    font-size: 18px;
+div.rectangle {
+    background-color: blueviolet;
 }
 
-ul {
-    color: #f39;
-    line-height: 32px;
+p.text::first-letter {
+    color: green;
     font-size: 24px;
-}
-
-li {
-    list-style: none;
-    padding: 8px;
 }
