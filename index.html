@@ -6,33 +6,35 @@
     <title>Специфичность</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
-    <style>
-        .rectangle {
-            background-color: aqua;
-            width: 100px;
-            height: 100px;
-        }
-        
-        .text {
-            font-size: 18px;
-            line-height: 24px;
-        }
-        
-        .text::first-letter {
-            color: red;
-        }
-        
-        .new {
-            color: grey;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="rectangle"></div>
-    <p class="text new">
-        Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида документа, написанного с использованием языка разметки.
-    </p>
+    <div class="image-container">
+        <img class="main_pic" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="main pic">
+    </div>
+    <div class="gallery">
+        <figure>
+            <img class="card_op" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="small pic">
+            <figcaption>
+                Opacity
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img class="card_blur" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="small pic">
+            <figcaption>
+                Blur
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img class="card_inv" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="small pic">
+            <figcaption>
+                Invert
+            </figcaption>
+        </figure>
+    </div>
+
 </body>
 
 </html>
