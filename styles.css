@@ -41,3 +41,7 @@ thead {
 tfoot {
     font-weight: 700;
 }
+
+caption {
+    margin-bottom: 8px;
+}
