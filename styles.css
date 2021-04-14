@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 button {
     margin: 64px;
     width: 200px;
@@ -12,6 +16,7 @@ button {
     border-radius: 4px;
     border: none;
     padding: 0;
+    cursor: pointer;
 }
 
 svg {
@@ -21,10 +26,10 @@ svg {
     vertical-align: middle;
 }
 
-.button-bird:hover {
-    color: green;
-}
-
 .button-bird:hover svg {
     fill: green;
+}
+
+.button-bird:hover {
+    color: darkcyan;
 }
