@@ -2,13 +2,6 @@ form {
     margin: 32px;
 }
 
-input,
-textarea,
-select,
-button {
-    margin-bottom: 8px;
-}
-
-.languages {
-    display: inline-block;
+div {
+    margin: 8px;
 }
