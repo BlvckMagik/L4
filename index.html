@@ -9,24 +9,129 @@
 </head>
 
 <body>
-    <main class="page">
-        <form class="login-form">
-            <h1 class="form-title">Login</h1>
-            <div class="form-control">
-                <label class="form-label" for="email">Email</label>
-                <input class="form-input" type="email" id="email" name="email" placeholder="mail@example.com" required />
-            </div>
-            <div class="form-control">
-                <label class="form-label" for="userName">Full Name</label>
-                <input class="form-input" type="text" id="userName" name="userName" />
-            </div>
-            <div class="form-control">
-                <label class="form-label" for="password">Password</label>
-                <input class="form-input" type="password" id="password" name="password" required />
-            </div>
-            <button class="submit-button" type="submit">Submit</button>
-        </form>
-    </main>
+    <form class="login-form">
+        <div class="form-control">
+            <label class="form-label">
+            <input class="text" type="text" name="primaryLanguage" value="HTML" disabled>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="checkbox" type="checkbox" name="text" unchecked>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="checkbox" type="checkbox" name="like" checked readonly>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="color" type="color" name="favouriteColor" value="#ff7f50">
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="date" type="date" name="birthDate" value="2021-01-02">
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="datetime" type="datetime-local" name="birthTime" value="2024-10-04T13:02">
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="email" type="email" name="email" placeholder="example@domain.com" required>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="file" type="file" name="avatar">
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="month" type="month" name="startLearning" value="2020-01">
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="number" type="number" name="favouriteNumber" value="17">
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <textarea class="textarea" name="story" value="17" rows="5" cols="30" placeholder="A long time ago..."></textarea>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="password" name="password" type="password" value="secret">
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="languages">
+            <input class="html" name="language" type="radio" value="html">HTML
+            <input class="css" name="language" type="radio" value="css" checked>CSS
+            <input class="radio" name="language" type="radio" value="javascript">Javascript
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="range" name="learningProgress" type="range" value="30">
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <select class="select" name="framework" >
+                <option value="react">React</option>
+                <option value="jquery" selected>Jquery</option>
+                <option value="bootstrap">Bootstrap</option>
+            </select>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="search" name="search" type="search" placeholder="Type first letters...">
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="time" name="lunchEnd" type="time" value="14:01">
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="url" name="website" type="url" placeholder="https://website.com" required>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label class="form-label">
+            <input class="week" name="birthWeek" type="week" value="2021-W51">
+            </label>
+        </div>
+
+        <button class="submit-button" type="submit">Save</button>
+    </form>
 </body>
 
 </html>
