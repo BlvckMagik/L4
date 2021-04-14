@@ -2,46 +2,120 @@
     box-sizing: border-box;
 }
 
+td {
+    width: 50px;
+    height: 50px;
+    border: black 1px solid;
+}
+
 table {
-    width: 500px;
+    border: solid black 1px;
     margin: 16px;
-}
-
-table,
-th,
-td {
-    border: 1px solid black;
     border-collapse: collapse;
-    text-align: right;
+    text-align: center;
 }
 
-th,
-td {
-    padding: 4px;
-    height: 40px;
+.firstline>td,
+.tenthline>td {
+    border: none;
 }
 
-div {
-    overflow-x: auto;
+.secondline>td:nth-child(odd) {
+    background-color: black;
 }
 
-tbody>tr:nth-child(odd) {
-    background-color: #f2f2f2;
+.secondline>td:nth-child(1) {
+    background-color: white;
 }
 
-tbody>tr:hover {
-    background-color: #aaa;
-    color: white;
+.thirdline>td {
+    background-color: black;
 }
 
-thead {
-    background-color: aqua;
+.thirdline>td:nth-child(odd) {
+    background-color: white;
 }
 
-tfoot {
-    font-weight: 700;
+.thirdline>td:nth-last-child(1) {
+    background-color: white;
 }
 
-caption {
-    margin-bottom: 8px;
+.fourhtline>td:nth-child(odd) {
+    background-color: black;
+}
+
+.fourhtline>td:nth-child(1) {
+    background-color: white;
+}
+
+.fifthline>td {
+    background-color: black;
+}
+
+.fifthline>td:nth-child(odd) {
+    background-color: white;
+}
+
+.fifthline>td:nth-last-child(1) {
+    background-color: white;
+}
+
+.sixthline>td:nth-child(odd) {
+    background-color: black;
+}
+
+.sixthline>td:nth-child(1) {
+    background-color: white;
+}
+
+.seventhline>td {
+    background-color: black;
+}
+
+.seventhline>td:nth-child(odd) {
+    background-color: white;
+}
+
+.seventhline>td:nth-last-child(1) {
+    background-color: white;
+}
+
+.eighthline>td:nth-child(odd) {
+    background-color: black;
+}
+
+.eighthline>td:nth-child(1) {
+    background-color: white;
+}
+
+.ninhtline>td {
+    background-color: black;
+}
+
+.ninhtline>td:nth-child(odd) {
+    background-color: white;
+}
+
+.ninhtline>td:nth-last-child(1) {
+    background-color: white;
+}
+
+.secondline>td:nth-child(1),
+.secondline>td:nth-last-child(1),
+.thirdline>td:nth-child(1),
+.thirdline>td:nth-last-child(1),
+.fourhtline>td:nth-child(1),
+.fourhtline>td:nth-last-child(1),
+.fifthline>td:nth-child(1),
+.fifthline>td:nth-last-child(1),
+.sixthline>td:nth-child(1),
+.sixthline>td:nth-last-child(1),
+.seventhline>td:nth-child(1),
+.seventhline>td:nth-last-child(1),
+.eighthline>td:nth-child(1),
+.eighthline>td:nth-last-child(1),
+.ninhtline>td:nth-child(1),
+.ninhtline>td:nth-last-child(1) {
+    border-top: none;
+    border-bottom: none;
 }
