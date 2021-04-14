@@ -2,34 +2,32 @@
     box-sizing: border-box;
 }
 
-button {
+.button {
     margin: 64px;
     width: 200px;
     height: 50px;
-    text-align: center;
-    line-height: 50px;
-    text-transform: uppercase;
     color: white;
     background-color: coral;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-    border-radius: 4px;
     border: none;
-    padding: 0;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.button:hover {
     cursor: pointer;
+    color: darkcyan;
 }
 
-svg {
-    width: 32px;
-    height: 32px;
-    fill: white;
-    vertical-align: middle;
-}
-
-.button-bird:hover svg {
+.button:hover>.bird-icon {
     fill: green;
 }
 
-.button-bird:hover {
-    color: darkcyan;
+.bird-icon {
+    height: 32px;
+    width: 32px;
+    fill: white;
+    vertical-align: middle;
 }
