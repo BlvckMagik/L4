@@ -6,5 +6,9 @@ input,
 textarea,
 select,
 button {
-    margin: 8px;
+    margin-bottom: 8px;
+}
+
+.languages {
+    display: inline-block;
 }
