@@ -1,24 +1,39 @@
-.fa-battery-empty {
-    font-size: 256px;
+* {
+    box-sizing: border-box;
 }
 
-.fa-battery-three-quarters {
-    font-size: 32px;
+.container {
+    margin: 32px;
 }
 
-.fa-battery-half {
-    font-size: 64px;
+.rect {
+    margin-bottom: 16px;
+    background-color: coral;
+    opacity: 0.5;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
 }
 
-.fa-battery-quarter {
-    font-size: 128px;
+.rect:hover {
+    width: 100%;
+    opacity: 1;
+    transition: width 2s, opacity 0.5s;
 }
 
-.fa-battery-full {
-    font-size: 16px;
+.linear {
+    transition-timing-function: linear;
 }
 
-div {
-    display: flex;
-    justify-content: space-around;
+.ease-in {
+    transition-timing-function: ease-in;
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
 }
