@@ -20,12 +20,19 @@
     }
 }
 
-.container {
+* {
+    box-sizing: border-box;
+}
+
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container {
     font-family: monospace;
     text-transform: uppercase;
     font-size: 16px;
@@ -38,5 +45,5 @@
     width: 10px;
     height: 4px;
     border-radius: 2px;
-    animation: moving 2s infinite alternate;
+    animation: moving 2s infinite alternate linear;
 }
