@@ -1,131 +1,35 @@
-html {
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    color: #555;
-}
-
-body {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: column;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    color: white;
-    background-image: linear-gradient(60deg, red, orange);
-}
-
-.main {
-    flex-grow: 1;
-    width: 100vw;
-    /* align-items: center; */
-    display: flex;
-    flex-direction: column;
-}
-
-.footer {
-    flex-shrink: 0;
-    background-color: #e5e5e5;
-    padding: .5em;
-    text-align: center;
-}
-
-.navigation {
-    width: 20%;
-    padding: .5em;
-    width: 100vw;
-}
-
-.section {
-    width: 100%;
-    padding: .5em;
-    font-size: 1.25em;
-}
-
-.news {
-    width: 100%;
-    padding: .5em;
-}
-
-.units-list {
-    line-height: 1.75em;
-}
-
-.css-units {
-    color: #8b0000;
-    background-color: #e5e5e5;
-    font-size: 1.125em;
-    font-weight: 700;
-}
-
-.section__header {
-    font-size: 5vw;
-    text-align: center;
+.header {
+  height: 56px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
 }
 
 .nav-list {
-    list-style: none;
-    padding: 0;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-list__item {
+  border-radius: 4px;
+  background-color: #ff7f50;
+  color: #fff;
+  padding: 8px;
+  margin: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.nav-list__item_selected {
+  background-color: #fb0;
+}
+.nav-list__item:hover {
+  opacity: 0.7;
 }
 
-.nav-list-item {
-    background-color: #808080;
-    color: white;
-    line-height: 2em;
-    margin-bottom: .5em;
+html {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.nav-list-link {
-    color: white;
-    text-decoration: none;
-    padding-left: .5em;
-    padding-right: .5em;
-    display: block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-img {
-    max-width: 100%;
-    margin-bottom: 5px;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-}
-
-@media screen and (min-width: 600px) {
-    .container {
-        display: flex;
-    }
-    .navigation {
-        width: 20vw;
-    }
-    .section {
-        width: 80vw;
-    }
-}
-
-@media screen and (min-width: 900px) {
-    .main {
-        flex-direction: row;
-    }
-    .container {
-        width: 80vw;
-    }
-    .news {
-        width: 20vw;
-    }
-    .navigation {
-        width: 20vw;
-    }
-    .section {
-        width: 60vw;
-    }
-}
+/*# sourceMappingURL=styles.css.map */
