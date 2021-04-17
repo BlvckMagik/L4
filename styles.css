@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   text-transform: uppercase;
+  color: #fff;
 }
 .menu__item {
   padding: 0 8px;
