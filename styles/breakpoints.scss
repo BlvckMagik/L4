@@ -1,0 +1,23 @@
+@mixin for-m {
+    @media screen and (min-width: 600px) {
+        @content;
+    }
+}
+
+@mixin for-l {
+    @media screen and (min-width: 900px) {
+        @content;
+    }
+}
+
+@mixin for-xl {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin for-portrait {
+    @media screen and (orientation: portrait) {
+        @content;
+    }
+}
