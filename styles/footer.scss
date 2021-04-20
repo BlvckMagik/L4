@@ -1,0 +1,120 @@
+.footer {
+    margin: auto;
+    width: 1400px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    &__line {
+        border-top: solid 1px #2B292D;
+        width: 100%;
+        margin: 0;
+        height: 1px;
+        opacity: .1;
+    }
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1140px;
+        height: 50px;
+        margin: auto;
+        &__img {
+            margin-left: 20px;
+            display: inline;
+        }
+    }
+    &__nav {
+        height: 338px;
+        width: 1140px;
+        margin: 0 auto;
+        display: flex;
+    }
+}
+
+.footer-logo {
+    flex-grow: 1;
+    display: flex;
+    &__name {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    &__image {
+        width: 60px;
+        height: 60px;
+        margin-right: 15px;
+    }
+    &__description {
+        font-size: 18px;
+        line-height: 25px;
+        opacity: 0.6;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.terms {
+    &__item {
+        color: #2B292D;
+        text-decoration: none;
+        opacity: .6;
+        font-size: 14px;
+        line-height: 50px;
+        margin-right: 22px;
+    }
+}
+
+.footer-info {
+    font-size: 18px;
+    color: #2B292D;
+    line-height: 26px;
+    width: 360px;
+    height: 85px;
+    margin-top: 26px;
+    opacity: .6;
+    display: inline-block;
+    margin-right: 0;
+}
+
+.footer-stores {
+    margin-top: 25px;
+    &__pic {
+        margin-right: 10px;
+    }
+}
+
+.nav-links {
+    width: 265px;
+    &__title {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        margin: 0;
+        color: #2B292D;
+    }
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        color: #2B292D;
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 18px;
+    }
+}
+
+.about-footer {
+    margin-top: 43px;
+}
+
+.aditional-nav {
+    margin-top: 60px;
+    margin-left: 126px;
+    display: flex;
+    &__column {
+        margin-right: 29px;
+    }
+}
