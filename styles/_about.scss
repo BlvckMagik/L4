@@ -1,0 +1,43 @@
+@import "_breakpoints";
+.about {
+  padding: 46px 15px;
+  background-color: #f4f5f7;
+}
+
+.article {
+  &__title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0;
+    margin-bottom: 6px;
+  }
+  &__text {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0;
+  }
+  &__text-first {
+    margin-bottom: 20px;
+  }
+}
+
+@include lg-screen {
+  .about {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 130px 76px 130px;
+  }
+
+  .article {
+    width: 555px;
+    &__text {
+      margin: 6px 0 0 0;
+    }
+    &__text-first {
+      margin-bottom: 0px;
+    }
+  }
+}

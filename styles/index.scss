@@ -1,25 +1,28 @@
-@import 'header.scss';
-@import 'headline.scss';
-@import 'footer.scss';
-@import 'common.scss';
-@import 'about.scss';
-@import 'customers.scss';
-@import 'features.scss';
+@import "_common";
+@import "_header";
+@import "_headline";
+@import "_footer";
+@import "_about";
+@import "_customers";
+@import "_features-desktop";
+@import "_features-mobile";
+@import "_breakpoints";
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
-    color: #2B292D;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  color: #2b292d;
 }
 
 .page {
-    width: 1400px;
-    margin: auto;
-    color: #2B292D;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  // overflow-x: hidden;
+  margin: auto;
+  color: #2b292d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
