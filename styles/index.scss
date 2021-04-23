@@ -7,6 +7,7 @@
 @import "_features-desktop";
 @import "_features-mobile";
 @import "_breakpoints";
+@import "_inbox";
 * {
   box-sizing: border-box;
 }
@@ -18,7 +19,7 @@ html {
 }
 
 .page {
-  width: 100%;
+  width: 100vw;
   // overflow-x: hidden;
   margin: auto;
   color: #2b292d;
