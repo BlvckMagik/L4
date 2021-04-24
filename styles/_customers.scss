@@ -31,12 +31,12 @@
     width: 1140px;
     display: flex;
     flex-direction: row;
-
     margin: auto;
     justify-content: space-between;
     align-items: center;
     padding-top: 30px;
     padding-bottom: 106px;
+
     &__logo {
       filter: brightness(0);
       max-width: 100%;
@@ -48,7 +48,6 @@
       align-items: center;
     }
     &__container {
-      display: block;
       height: 100%;
       width: 100%;
       flex-grow: 1;
@@ -56,5 +55,8 @@
       justify-content: center;
       border: none;
     }
+  }
+  .customers-bottom {
+    padding-bottom: 76px;
   }
 }
