@@ -1,5 +1,5 @@
 # Foundation Website
-The site is available at https://gon4aruk.github.io/foundation/
+The site is available at https://blvckmagik.github.io/foundation/
 
 The tech stack is:
 
