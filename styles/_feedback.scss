@@ -1,0 +1,97 @@
+@import "_breakpoints.scss";
+.feedback {
+  display: flex;
+  flex-direction: column;
+  padding: 39px 15px 50px 15px;
+  border-bottom: 1px solid #e3e3e3;
+  @include lg-screen {
+    margin: auto;
+    width: 1400px;
+    align-items: center;
+    position: relative;
+    padding: 0;
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3142c6;
+    margin-bottom: 29px;
+    @include lg-screen {
+      margin-bottom: 28px;
+    }
+  }
+
+  &__text {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 32px;
+    @include lg-screen {
+      width: 750px;
+      text-align: center;
+      margin-bottom: 34px;
+    }
+  }
+
+  &__contact {
+    margin-bottom: 40px;
+    @include lg-screen {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 38px;
+    }
+  }
+
+  &__contact-name {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__contact-post {
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.6;
+  }
+
+  &__selector {
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+    margin: auto;
+    margin-bottom: 40px;
+    @include lg-screen {
+      margin-bottom: 66px;
+    }
+  }
+
+  &__item {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    opacity: 0.2;
+    background-color: #2b292d;
+    &:hover {
+      background-color: #3142c5;
+      opacity: 1;
+    }
+  }
+
+  &__item-selected {
+    background-color: #3142c5;
+    opacity: 1;
+  }
+
+  &__img {
+    max-width: 100%;
+    margin: auto;
+    @include lg-screen {
+      position: absolute;
+      bottom: 0;
+      right: 26px;
+    }
+  }
+}
