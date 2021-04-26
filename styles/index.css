@@ -252,7 +252,7 @@
   .headline__banner {
     width: 796px;
     height: 448px;
-    top: 0;
+    top: 7px;
     right: -105px;
     margin-left: auto;
     margin-right: 0;
@@ -1941,7 +1941,6 @@ html {
 }
 
 .page {
-  width: 100vw;
   margin: auto;
   color: #2b292d;
   min-height: 100vh;
