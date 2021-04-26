@@ -1,0 +1,127 @@
+@import "_breakpoints.scss";
+
+.hiring {
+  padding: 50px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include lg-screen {
+    padding: 106px 325px 110px 325px;
+  }
+  &__title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.357143px;
+    margin-bottom: 18px;
+    @include lg-screen {
+      font-size: 56px;
+      line-height: 56px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__text {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 30px;
+    @include lg-screen {
+      font-size: 24px;
+      line-height: 34px;
+      width: 555px;
+      margin-bottom: 28px;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    margin-bottom: 39px;
+    @include lg-screen {
+      width: 247px;
+      height: 48px;
+      margin-bottom: 110px;
+    }
+  }
+}
+
+.vacancies {
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 8px;
+  width: 290px;
+  height: 140px;
+  margin-bottom: 15px;
+  display: flex;
+  padding-left: 20px;
+  justify-content: space-between;
+  &:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+  @include lg-screen {
+    width: 750px;
+    height: 81px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    &:hover {
+      background-color: #3141c5;
+      box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+      color: #ffffff;
+      .vacancies__img {
+        background-image: url(../img/arrow-right-alt.png);
+      }
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include lg-screen {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+
+  &__name {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    width: 200px;
+    margin-top: 19px;
+    @include lg-screen {
+      margin: 0;
+      width: 408px;
+    }
+  }
+
+  &__location {
+    font-size: 16px;
+    line-height: 22px;
+    opacity: 0.6;
+    margin-bottom: 19px;
+    @include lg-screen {
+      margin: 0;
+    }
+  }
+
+  &__arrow-block {
+    height: 100%;
+    width: 50px;
+    background: #d5d4d5;
+    border-radius: 0px 8px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include lg-screen {
+      background-color: transparent;
+    }
+  }
+  &__img {
+    width: 7.41px;
+    height: 12px;
+    background-image: url(../img/arrow-right.png);
+  }
+}
