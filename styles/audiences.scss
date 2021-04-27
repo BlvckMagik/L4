@@ -1,4 +1,5 @@
 @import "breakpoints.scss";
+@import "variables.scss";
 
 .audiences {
   padding: 50px 15px;
@@ -7,7 +8,7 @@
   align-items: center;
   background-color: #00a1c612;
   @include lg-screen {
-    width: 1400px;
+    width: $page-width;
     margin: auto;
     padding: 108px 131px 110px 130px;
   }
@@ -68,7 +69,7 @@
         rgba(255, 255, 255, 0.05) 0%,
         rgba(255, 255, 255, 1e-5) 100%
       ),
-      #3040c4;
+      $button-color;
     background-blend-mode: overlay, normal;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
@@ -131,7 +132,7 @@
     cursor: pointer;
     &:hover {
       color: #ffffff;
-      background-color: #3141c5;
+      background-color: $hovered;
     }
     @include lg-screen {
       margin: 0;

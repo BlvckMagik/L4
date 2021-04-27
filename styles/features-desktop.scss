@@ -1,6 +1,8 @@
+@import "variables.scss";
+
 .features-desktop {
   display: flex;
-  width: 1400px;
+  width: $page-width;
   margin: auto;
   position: relative;
   margin-bottom: 103px;
@@ -16,7 +18,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 34px;
-    color: #009b4d;
+    color: $features-title;
     margin: 0;
   }
   &__title {

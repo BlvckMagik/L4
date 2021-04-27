@@ -1,4 +1,6 @@
 @import "breakpoints.scss";
+@import "variables.scss";
+
 .feedback {
   display: flex;
   flex-direction: column;
@@ -6,7 +8,7 @@
   border-bottom: 1px solid #e3e3e3;
   @include lg-screen {
     margin: auto;
-    width: 1400px;
+    width: $page-width;
     align-items: center;
     position: relative;
     padding: 0;
@@ -76,13 +78,13 @@
     background-color: #2b292d;
     cursor: pointer;
     &:hover {
-      background-color: #3142c5;
+      background-color: $hovered;
       opacity: 1;
     }
   }
 
   &__item-selected {
-    background-color: #3142c5;
+    background-color: $hovered;
     opacity: 1;
   }
 

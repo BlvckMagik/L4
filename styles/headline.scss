@@ -1,7 +1,7 @@
 @import "common.scss";
 @import "breakpoints.scss";
 .headline {
-  background-color: #f3c6bd;
+  background-color: $head-color;
   padding-bottom: 36px;
 
   &__title {
@@ -31,7 +31,7 @@
     background-color: #fff;
     font-size: 18px;
     line-height: 13px;
-    color: #3040c4;
+    color: $button-color;
     font-weight: 700;
     border-radius: 2px;
     border: none;

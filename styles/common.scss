@@ -1,7 +1,9 @@
+@import "variables.scss";
+
 .action-button {
   width: 160px;
   height: 48px;
-  background-color: #3040c4;
+  background-color: $button-color;
   font-size: 18px;
   line-height: 13px;
   color: #ffffff;

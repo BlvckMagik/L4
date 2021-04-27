@@ -1,5 +1,7 @@
 @import "breakpoints.scss";
 @import "common.scss";
+@import "variables.scss";
+
 .header {
   background-color: #fff;
   width: 100vw;
@@ -48,12 +50,12 @@
 
 @include lg-screen {
   .page {
-    width: 1400px;
+    width: $page-width;
   }
   .top-section {
-    background-color: #f3c6bd;
+    background-color: $head-color;
     padding-top: 39px;
-    width: 1400px;
+    width: $page-width;
     margin: 0 auto;
   }
 
@@ -112,7 +114,7 @@
       font-size: 18px;
       text-decoration: none;
       margin-right: 50px;
-      color: #2b292d;
+      color: $text-color;
       &:last-child {
         margin: 0;
       }
@@ -121,7 +123,7 @@
       font-weight: 700;
     }
     &__arrow {
-      background-image: url(../img/arrow.png);
+      background-image: url(img/arrow.png);
       display: inline-block;
       width: 8px;
       height: 5px;
