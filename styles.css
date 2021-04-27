@@ -66,6 +66,7 @@
 .nav {
   display: none;
 }
+
 @media screen and (min-width: 1400px) {
   .page {
     width: 1400px;
@@ -144,7 +145,7 @@
     font-weight: 700;
   }
   .nav__arrow {
-    background-image: url(img/arrow.png);
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
     display: inline-block;
     width: 8px;
     height: 5px;
@@ -1114,7 +1115,7 @@
     color: #ffffff;
   }
   .vacancies:hover .vacancies__img {
-    background-image: url(img/arrow-right-alt.png);
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png);
   }
 }
 .vacancies__container {
@@ -1169,7 +1170,7 @@
 .vacancies__img {
   width: 7px;
   height: 12px;
-  background-image: url(img/arrow-right.png);
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
 }
 
 .order {
