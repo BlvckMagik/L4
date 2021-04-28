@@ -786,7 +786,7 @@
   margin-bottom: 40px;
 }
 
-.audiences {
+.audience {
   padding: 50px 15px;
   display: flex;
   flex-direction: column;
@@ -794,13 +794,13 @@
   background-color: #00a1c612;
 }
 @media screen and (min-width: 1400px) {
-  .audiences {
+  .audience {
     width: 1400px;
     margin: auto;
     padding: 108px 131px 110px 130px;
   }
 }
-.audiences__title {
+.audience__title {
   margin: 0;
   font-weight: bold;
   font-size: 22px;
@@ -808,11 +808,11 @@
   margin-bottom: 17px;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__title {
+  .audience__title {
     margin-bottom: 24px;
   }
 }
-.audiences__subtitle {
+.audience__subtitle {
   margin: 0;
   margin-bottom: 18px;
   font-weight: bold;
@@ -822,7 +822,7 @@
   text-align: center;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__subtitle {
+  .audience__subtitle {
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
@@ -830,30 +830,30 @@
     width: 555px;
   }
 }
-.audiences__text {
+.audience__text {
   font-size: 24px;
   line-height: 34px;
   margin-bottom: 30px;
   text-align: center;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__text {
+  .audience__text {
     margin-bottom: 34px;
     width: 555px;
   }
 }
-.audiences__btn {
+.audience__btn {
   width: 100%;
   margin-bottom: 40px;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__btn {
+  .audience__btn {
     width: 400px;
     margin-bottom: 111px;
     text-align: center;
   }
 }
-.audiences__get-started {
+.audience__get-started {
   width: 100%;
   margin-bottom: 12px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #3040c4;
@@ -861,12 +861,12 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (min-width: 1400px) {
-  .audiences__get-started {
+  .audience__get-started {
     width: 160px;
     margin-right: 10px;
   }
 }
-.audiences__learn-more {
+.audience__learn-more {
   width: 100%;
   height: 48px;
   font-size: 18px;
@@ -880,21 +880,22 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (min-width: 1400px) {
-  .audiences__learn-more {
+  .audience__learn-more {
     width: 160px;
   }
 }
-.audiences__categories {
+.audience__categories {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__categories {
+  .audience__categories {
     flex-direction: row;
   }
 }
-.audiences__fig {
+
+.user-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -908,28 +909,28 @@
   margin-bottom: 15px;
   cursor: pointer;
 }
-.audiences__fig:hover {
+.user-card:hover {
   color: #ffffff;
   background-color: #3141c5;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__fig {
+  .user-card {
     margin: 0;
     margin-right: 30px;
     width: 262px;
   }
-}
-.audiences__img {
-  max-width: 100%;
-  margin-top: 22px;
-  margin-bottom: 22px;
-}
-.audiences__caption {
-  text-align: center;
-  margin-bottom: 33px;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 28px;
+  .user-card__img {
+    max-width: 100%;
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+  .user-card__caption {
+    text-align: center;
+    margin-bottom: 33px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+  }
 }
 
 .feedback {
@@ -1088,7 +1089,7 @@
   }
 }
 
-.vacancies {
+.vacancy {
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 8px;
   width: 100%;
@@ -1098,38 +1099,38 @@
   padding-left: 20px;
   justify-content: space-between;
 }
-.vacancies:nth-last-child(1) {
+.vacancy:nth-last-child(1) {
   margin-bottom: 0;
 }
 @media screen and (min-width: 1400px) {
-  .vacancies {
+  .vacancy {
     width: 750px;
     height: 81px;
     padding-left: 25px;
     margin-bottom: 20px;
     cursor: pointer;
   }
-  .vacancies:hover {
+  .vacancy:hover {
     background-color: #3141c5;
     box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
     color: #ffffff;
   }
-  .vacancies:hover .vacancies__img {
+  .vacancy:hover .vacancy__img {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png);
   }
 }
-.vacancies__container {
+.vacancy__container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 @media screen and (min-width: 1400px) {
-  .vacancies__container {
+  .vacancy__container {
     flex-direction: row;
     align-items: center;
   }
 }
-.vacancies__name {
+.vacancy__name {
   font-weight: bold;
   font-size: 22px;
   line-height: 28px;
@@ -1137,23 +1138,23 @@
   margin-top: 19px;
 }
 @media screen and (min-width: 1400px) {
-  .vacancies__name {
+  .vacancy__name {
     margin: 0;
     width: 408px;
   }
 }
-.vacancies__location {
+.vacancy__location {
   font-size: 16px;
   line-height: 22px;
   opacity: 0.6;
   margin-bottom: 19px;
 }
 @media screen and (min-width: 1400px) {
-  .vacancies__location {
+  .vacancy__location {
     margin: 0;
   }
 }
-.vacancies__arrow-block {
+.vacancy__arrow-block {
   height: 100%;
   width: 50px;
   background: #d5d4d5;
@@ -1163,11 +1164,11 @@
   align-items: center;
 }
 @media screen and (min-width: 1400px) {
-  .vacancies__arrow-block {
+  .vacancy__arrow-block {
     background-color: transparent;
   }
 }
-.vacancies__img {
+.vacancy__img {
   width: 7px;
   height: 12px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);

@@ -1,7 +1,7 @@
 @import "breakpoints.scss";
 @import "variables.scss";
 
-.audiences {
+.audience {
   padding: 50px 15px;
   display: flex;
   flex-direction: column;
@@ -110,48 +110,44 @@
       flex-direction: row;
     }
   }
+}
 
-  &__fig {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  width: 290px;
+  height: 300px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-5) 100%),
+    #ffffff;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  &:hover {
+    color: #ffffff;
+    background-color: $hovered;
+  }
+  @include lg-screen {
     margin: 0;
-    width: 290px;
-    height: 300px;
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.05) 0%,
-        rgba(255, 255, 255, 1e-5) 100%
-      ),
-      #ffffff;
-    background-blend-mode: overlay, normal;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-    margin-bottom: 15px;
-    cursor: pointer;
-    &:hover {
-      color: #ffffff;
-      background-color: $hovered;
-    }
-    @include lg-screen {
-      margin: 0;
-      margin-right: 30px;
-      width: 262px;
-    }
-  }
+    margin-right: 30px;
+    width: 262px;
 
-  &__img {
-    max-width: 100%;
-    margin-top: 22px;
-    margin-bottom: 22px;
-  }
+    &__img {
+      max-width: 100%;
+      margin-top: 22px;
+      margin-bottom: 22px;
+    }
 
-  &__caption {
-    text-align: center;
-    margin-bottom: 33px;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 28px;
+    &__caption {
+      text-align: center;
+      margin-bottom: 33px;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 28px;
+    }
   }
 }
