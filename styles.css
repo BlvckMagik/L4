@@ -63,7 +63,7 @@
   margin: 26px 20px 25px 20px;
 }
 
-.nav {
+.navigation {
   display: none;
 }
 
@@ -126,25 +126,27 @@
     display: block;
   }
 
-  .nav {
+  .navigation {
     display: flex;
     align-items: center;
     margin-right: 75px;
   }
-  .nav__item {
+  .navigation__item {
     line-height: 25px;
     font-size: 18px;
     text-decoration: none;
     margin-right: 50px;
     color: #2b292d;
   }
-  .nav__item:last-child {
+  .navigation__item:last-child {
     margin: 0;
+    display: flex;
+    align-items: center;
   }
-  .nav__item-selected {
+  .navigation__item-selected {
     font-weight: 700;
   }
-  .nav__arrow {
+  .navigation__arrow {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
     display: inline-block;
     width: 8px;
