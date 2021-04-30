@@ -15,6 +15,9 @@
 <body>
   <div class="page">
     <div class="top-section">
+
+      <!-- !Header -->
+
       <header class="header" header="header">
         <div class="logo">
           <img class="logo__image" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png" alt="Icon" />
@@ -371,63 +374,84 @@
   <!-- !Footer -->
 
   <footer class="footer">
-    <div class="footer__nav">
-      <div class="about-footer">
+    <div class="footer__navigation">
+      <div class="about-company">
         <div class="logo">
-          <img class="logo__image" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png" alt="Icon" />
+          <img class="logo__image footer__logo-image" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png" alt="logo" />
           <div class="logo__text">
             <div class="logo__name">Foundation</div>
             <div class="logo__description">Startup landing template</div>
           </div>
         </div>
-        <div class="footer__description">
+
+        <div class="logo-mobile">
+          <img
+            class="logo-mobile__image footer__logo-image"
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png"
+            alt="logo"
+          />
+          <div class="logo-mobile__text">
+            <div class="logo-mobile__name">Foundation</div>
+            <div class="logo-mobile__description">Startup landing template</div>
+          </div>
+        </div>
+
+        <p class="footer-descriprion">
           Foundation is a website template for startups and small teams. It helps to build a
           website in no time.
-        </div>
-        <div class="footer-stores">
-          <a class="footer-stores__pic footer-stores__pic-first" href="https://www.apple.com/ua/app-store/"><img
-              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png" alt="appstore" /></a>
-          <a class="footer-stores__pic" href="https://play.google.com/store"><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png"
-              alt="googleplay" /></a>
+        </p>
+
+        <div class="downloads">
+          <img class="downloads__item" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png" alt="App Store Download" />
+          <img class="downloads__item" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png" alt="Google Play Download" />
         </div>
       </div>
-      <div class="footer__line-first"></div>
+      <div class="footer__line hidden-desktop"></div>
+
       <div class="additional-navigation">
-        <div class="additional-navigation__column nav-links">
-          <h3 class="nav-links__title">Product</h3>
-          <ul class="nav-links__list">
-            <li class="nav-links__list-item">Acquire Users</li>
-            <li class="nav-links__list-item">Content Marketing</li>
-            <li class="nav-links__list-item">Website Templates</li>
-            <li class="nav-links__list-item">Customer Management</li>
-            <li class="nav-links__list-item">Virtual Inbox</li>
+        <div class="navigation-column">
+          <h3 class="navigation-column__title">Product</h3>
+
+          <ul class="navigation-column-list nav-list">
+            <li class="nav-list__item">Acquire Users</li>
+            <li class="nav-list__item">Content Marketing</li>
+            <li class="nav-list__item">Website Templates</li>
+            <li class="nav-list__item">Customer Management</li>
+            <li class="nav-list__item">Virtual Inbox</li>
           </ul>
         </div>
-        <div class="nav-links">
-          <h3 class="nav-links__title">Company</h3>
-          <ul class="nav-links__list">
-            <li class="nav-links__list-item">About Foundation</li>
-            <li class="nav-links__list-item">Brand Guidelines</li>
-            <li class="nav-links__list-item">Press Kit</li>
-            <li class="nav-links__list-item">Support</li>
+
+        <div class="navigation-column">
+          <h3 class="navigation-column__title">Company</h3>
+
+          <ul class="navigation-column-list nav-list">
+            <li class="nav-list__item">About Foundation</li>
+            <li class="nav-list__item">Brand Guidelines</li>
+            <li class="nav-list__item">Press Kit</li>
+            <li class="nav-list__item">Support</li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="footer__line-second"></div>
+
+    <div class="footer__line hidden-mobile"></div>
     <div class="footer__links">
       <nav class="terms">
         <a class="terms__item" href="#">Terms</a>
         <a class="terms__item" href="#">Privacy</a>
         <a class="terms__item" href="#">License</a>
       </nav>
+
       <div class="social-links">
-        <a href="https://twitter.com/"><img class="social-links__img" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png"
-            alt="img_twitter" /></a>
-        <a href="https://www.facebook.com/"><img class="social-links__img" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png"
-            alt="img_facebook" /></a>
-        <a href="https://www.linkedin.com/"><img class="social-links__img" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png"
-            alt="img_linkedin" /></a>
+        <a class="social-links__item-twitter" href="https://twitter.com" target="_blank"
+          ><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png" alt="Twitter link"
+        /></a>
+        <a class="social-links__item-facebook" href="https://facebook.com" target="_blank"
+          ><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png" alt="Facebook link"
+        /></a>
+        <a class="social-links__item-linkedin" href="https://linkedin.com" target="_blank"
+          ><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png" alt="Linkedin link"
+        /></a>
       </div>
     </div>
   </footer>
