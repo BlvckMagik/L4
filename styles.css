@@ -1292,9 +1292,11 @@
   color: #3142c6;
 }
 
-.footer {
-  width: 1400px;
-  margin: auto;
+@media screen and (min-width: 1400px) {
+  .footer {
+    width: 1400px;
+    margin: auto;
+  }
 }
 .footer__navigation {
   display: flex;

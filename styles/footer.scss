@@ -2,8 +2,10 @@
 @import "variables.scss";
 
 .footer {
-  width: 1400px;
-  margin: auto;
+  @include lg-screen {
+    width: 1400px;
+    margin: auto;
+  }
   &__navigation {
     display: flex;
     flex-direction: column;
