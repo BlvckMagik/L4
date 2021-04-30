@@ -1292,6 +1292,10 @@
   color: #3142c6;
 }
 
+.footer {
+  width: 1400px;
+  margin: auto;
+}
 .footer__navigation {
   display: flex;
   flex-direction: column;
