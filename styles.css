@@ -253,6 +253,7 @@
   }
   .headline__btns {
     margin-top: 58px;
+    height: 48px;
     display: flex;
   }
   .headline__learn-more-btn {
@@ -267,6 +268,7 @@
     position: absolute;
     z-index: 1;
     padding-left: 0;
+    margin-top: 0;
   }
 }
 .about {
@@ -1560,6 +1562,11 @@ html {
 
 .top-section {
   background-color: #f3c6bd;
+}
+@media screen and (min-width: 1400px) {
+  .top-section {
+    height: 710px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

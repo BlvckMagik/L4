@@ -36,4 +36,7 @@ html {
 
 .top-section {
   background-color: $head-color;
+  @include lg-screen {
+    height: 710px;
+  }
 }
