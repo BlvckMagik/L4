@@ -208,7 +208,8 @@
 }
 
 .headline-container {
-  padding: 35px 15px 36px 15px;
+  padding: 0px 15px 36px 15px;
+  margin-top: 35px;
 }
 
 @media screen and (min-width: 1400px) {
@@ -261,7 +262,6 @@
   .headline-container {
     position: absolute;
     z-index: 1;
-    padding-top: 0;
     padding-left: 0;
   }
 }
@@ -1550,6 +1550,10 @@ html {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.top-section {
+  background-color: #f3c6bd;
 }
 
 /*# sourceMappingURL=styles.css.map */
