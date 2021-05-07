@@ -12,20 +12,6 @@
   cursor: pointer;
 }
 
-.action-button {
-  width: 160px;
-  height: 48px;
-  padding: 0;
-  background-color: #3040c4;
-  font-size: 18px;
-  line-height: 13px;
-  color: #ffffff;
-  font-weight: 700;
-  border-radius: 2px;
-  border: none;
-  cursor: pointer;
-}
-
 .header {
   background-color: #fff;
   width: 100vw;
@@ -156,20 +142,6 @@
     margin-left: 11px;
   }
 }
-.action-button {
-  width: 160px;
-  height: 48px;
-  padding: 0;
-  background-color: #3040c4;
-  font-size: 18px;
-  line-height: 13px;
-  color: #ffffff;
-  font-weight: 700;
-  border-radius: 2px;
-  border: none;
-  cursor: pointer;
-}
-
 .headline {
   background-color: #f3c6bd;
   padding-bottom: 36px;
