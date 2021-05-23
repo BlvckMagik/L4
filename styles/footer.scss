@@ -110,16 +110,16 @@
     margin: 16px 132px 16px auto;
   }
 
-  &__item-twitter {
+  &__twitter {
     width: 21px;
     height: 16px;
   }
 
-  &__item-facebook {
+  &__facebook {
     width: 18px;
     height: 17px;
   }
-  &__item-linkedin {
+  &__linkedin {
     width: 18px;
     height: 17px;
   }
@@ -181,16 +181,15 @@
     margin: auto;
     flex-direction: row;
   }
-}
 
-.navigation-column {
-  margin-bottom: 30px;
+  &__container {
+    margin-bottom: 30px;
 
-  @include lg-screen {
-    margin-bottom: 0;
+    @include lg-screen {
+      margin-bottom: 0;
+    }
   }
-
-  &__title {
+  &__container-title {
     font-size: 22px;
     line-height: 28px;
     color: $text-color;
